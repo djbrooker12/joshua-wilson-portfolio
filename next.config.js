@@ -2,8 +2,6 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/joshua-wilson-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/joshua-wilson-portfolio' : '',
   images: {
     unoptimized: true,
     domains: [
